@@ -29,6 +29,12 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 
 ![Upload Website Files to S3](Documentation/Images/image2.png)
 
+### Step 3: Configure the Bucket for Static Website Hosting
+1. Go to the bucket properties in the S3 console.
+2. Enable static website hosting:
+   * In the "Static website hosting" section, choose Enable.
+   * Set index.html as the Index document.
+   * Optionally, set a custom error document like error.html.
 
 ### Step 3: Configure the Bucket for Static Website Hosting
 1. Go to the bucket properties.
