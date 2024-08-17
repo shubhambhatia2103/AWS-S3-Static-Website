@@ -60,15 +60,13 @@ ACLs are a set of rules that determine who can access your S3 resources. In this
     * From the "Actions" dropdown, choose "Make public using ACL".
     * This action grants public read access to the website files, resolving any 403 errors when accessing the bucket endpoint.
 
-### Challenges and Solutions
-* **403 Forbidden Error:** Resolved by updating the bucket policy to allow public access.
-* **Bucket Name Uniqueness:** S3 bucket names must be globally unique, which required choosing a distinctive name.
 
 ### Troubleshooting
 * **403 Forbidden Error:** If you encounter this error, ensure that the objects in your bucket are made public using ACLs.
 
-### Technologies Used
+### Project Architecture
+The project uses Amazon S3 to host a static website, where the following steps were performed:
 
-* **Amazon S3:** For storage and static website hosting.
-* **HTML/CSS/JS:** For building the static website.
-* **AWS Management Console:** For managing S3 settings and configurations.
+* **S3 Bucket:** Created for storing the website files.
+* **Website Hosting:** Enabled to make the bucket's content publicly accessible.
+* **ACLs:** Configured to allow public access to the website.
