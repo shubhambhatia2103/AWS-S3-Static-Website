@@ -64,6 +64,9 @@ ACLs are a set of rules that determine who can access your S3 resources. In this
 * **403 Forbidden Error:** Resolved by updating the bucket policy to allow public access.
 * **Bucket Name Uniqueness:** S3 bucket names must be globally unique, which required choosing a distinctive name.
 
+### Troubleshooting
+* **403 Forbidden Error:** If you encounter this error, ensure that the objects in your bucket are made public using ACLs.
+
 ### Technologies Used
 
 * **Amazon S3:** For storage and static website hosting.
