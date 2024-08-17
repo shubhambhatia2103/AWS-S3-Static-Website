@@ -14,7 +14,9 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 ### Step 1: Create an S3 Bucket
 1. Log in to the [AWS Management Console](https://aws.amazon.com/).
 2. Navigate to the `S3 service`.
-3. Create a new bucket with a unique name.
+3. Create a new bucket:
+  * Give it a unique name (e.g., my-awesome-website-bucket).
+  * Choose a region closest to your target audience (e.g., Asia Pacific (Mumbai) `ap-south-1`).
 4. Select a region closest to your target audience.
 5. Enable ACLs:
    * During bucket creation, under "Object Ownership," select ACLs enabled.
@@ -23,8 +25,9 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 ![Creating an S3 bucket](Documentation/Images/image1.png)
 
 ### Step 2: Upload Files
-1. Upload `index.html` and the unzipped folder - NOT the zip file itself to the S3 bucket.
-2. Ensure the directory structure is preserved during the upload.
+1. Upload your website files:
+  * Upload index.html and the unzipped folder to the S3 bucket.
+  * Ensure the directory structure is preserved during the upload.
 
 
 ![Upload Website Files to S3](Documentation/Images/image2.png)
@@ -36,11 +39,6 @@ This project demonstrates how to host a static website using Amazon S3. The webs
    * Set index.html as the Index document.
    * Optionally, set a custom error document like error.html.
 
-### Step 3: Configure the Bucket for Static Website Hosting
-1. Go to the bucket properties.
-2. Enable static website hosting.
-3. Set `index.html` as the index document.
-4. Optionally, set a custom error document like `error.html`.
 
 ### Step 4: Make the Website Public
 1. Edit the bucket policy to allow public read access:
