@@ -15,9 +15,6 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 1. Log in to the [AWS Management Console](https://aws.amazon.com/).
 2. Navigate to the `S3 service`.
 3. Create a new bucket:
- * Give it a unique name (e.g., my-awesome-website-bucket).
- * Choose a region closest to your target audience (e.g., Asia Pacific (Mumbai) `ap-south-1`).
-4. Create a new bucket:
    * Give it a unique name (e.g., my-awesome-website-bucket).
    * Choose a region closest to your target audience (e.g., Asia Pacific (Mumbai) `ap-south-1`).
 4. Enable ACLs:
