@@ -48,3 +48,12 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 ```
 http://your-bucket-name.s3-website-region.amazonaws.com
 ```
+### Challenges and Solutions
+* **403 Forbidden Error:** Resolved by updating the bucket policy to allow public access.
+* **Bucket Name Uniqueness:** S3 bucket names must be globally unique, which required choosing a distinctive name.
+
+### Technologies Used
+
+* **Amazon S3:** For storage and static website hosting.
+* **HTML/CSS/JS:** For building the static website.
+* **AWS Management Console:** For managing S3 settings and configurations.
