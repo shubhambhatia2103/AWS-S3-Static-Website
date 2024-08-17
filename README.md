@@ -17,6 +17,8 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 3. Create a new bucket with a unique name.
 4. Select a region closest to your target audience.
 
+![Creating an S3 bucket](Documentation/Images/image1.pngg)
+
 ### Step 2: Upload Files
 1. Upload `index.html` and all assets to the S3 bucket.
 2. Ensure the directory structure is preserved during the upload.
