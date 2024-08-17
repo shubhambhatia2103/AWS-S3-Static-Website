@@ -17,8 +17,7 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 3. Create a new bucket:
   * Give it a unique name (e.g., my-awesome-website-bucket).
   * Choose a region closest to your target audience (e.g., Asia Pacific (Mumbai) `ap-south-1`).
-4. Select a region closest to your target audience.
-5. Enable ACLs:
+4. Enable ACLs:
    * During bucket creation, under "Object Ownership," select ACLs enabled.
    * This allows fine-grained control over the permissions of individual objects in the bucket.
 
@@ -39,6 +38,7 @@ This project demonstrates how to host a static website using Amazon S3. The webs
    * Set index.html as the Index document.
    * Optionally, set a custom error document like error.html.
 
+![Static Website Hosting on S3](Documentation/Images/image3.png)
 
 ### Step 4: Make the Website Public
 1. Edit the bucket policy to allow public read access:
