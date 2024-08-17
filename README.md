@@ -16,6 +16,9 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 2. Navigate to the `S3 service`.
 3. Create a new bucket with a unique name.
 4. Select a region closest to your target audience.
+5. Enable ACLs:
+   * During bucket creation, under "Object Ownership," select ACLs enabled.
+   * This allows fine-grained control over the permissions of individual objects in the bucket.
 
 ![Creating an S3 bucket](Documentation/Images/image1.png)
 
