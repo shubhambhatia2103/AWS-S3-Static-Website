@@ -20,8 +20,12 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 ![Creating an S3 bucket](Documentation/Images/image1.png)
 
 ### Step 2: Upload Files
-1. Upload `index.html` and all assets to the S3 bucket.
+1. Upload `index.html` and the unzipped folder - NOT the zip file itself to the S3 bucket.
 2. Ensure the directory structure is preserved during the upload.
+
+
+![Upload Website Files to S3](Documentation/Images/image2.png)
+
 
 ### Step 3: Configure the Bucket for Static Website Hosting
 1. Go to the bucket properties.
