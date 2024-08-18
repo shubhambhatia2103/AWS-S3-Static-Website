@@ -3,7 +3,7 @@
 ## Overview
 This project demonstrates how to host a static website using Amazon S3. The website is a simple HTML page with associated assets, fully hosted on S3, showcasing how to leverage AWS for static content delivery.
 
-![architecture](Documentation/Images/architecture.png) 
+![architecture](Documentation/Images/s3-architecture.png) 
 ## Features
 - **Static Website Hosting**: Accessible via a public URL provided by S3.
 - **Custom Error Pages**: Configured custom error pages for a better user experience.
