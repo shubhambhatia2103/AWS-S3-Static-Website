@@ -50,6 +50,8 @@ This project demonstrates how to host a static website using Amazon S3. The webs
 http://your-bucket-name.s3-website-region.amazonaws.com
 ```
 
+![Access the Website](Documentation/Images/intro-image.png) 
+
 ## Using ACLs
 ### Access Control Lists (ACLs)
 ACLs are a set of rules that determine who can access your S3 resources. In this project, ACLs were used to manage public access to the website.
