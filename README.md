@@ -73,3 +73,12 @@ The project uses Amazon S3 to host a static website, where the following steps w
 * **S3 Bucket:** Created for storing the website files.
 * **Website Hosting:** Enabled to make the bucket's content publicly accessible.
 * **ACLs:** Configured to allow public access to the website.
+
+
+---
+
+### Additional Notes
+Since you plan to delete the resources from your AWS console to avoid costs, this GitHub repository will serve as the sole showcase for your work on this project.
+
+Feel free to modify the content as needed or add more details specific to your experience!
+
