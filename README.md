@@ -78,7 +78,7 @@ The project uses Amazon S3 to host a static website, where the following steps w
 ---
 
 ### Additional Notes
-Since you plan to delete the resources from your AWS console to avoid costs, this GitHub repository will serve as the sole showcase for your work on this project.
 
-Feel free to modify the content as needed or add more details specific to your experience!
+I deleted the resources from my AWS console to avoid costs, so this GitHub repository serves as the sole showcase for my work on this project. 
+I have documented all the steps and details to ensure a comprehensive understanding of my approach.
 
